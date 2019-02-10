@@ -3,12 +3,18 @@ h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 250%;
   }
+
+  h2 {
+    margin-left: 200px;
+  }
+
   .container{
-      width: 80%;
+      width: 70%;
   }
 .row{
-    width: 40%;
-    float: right;
+    width: 80%;
+    float: center;
+    padding-left: 350px;
 }
 input[type=text], input[type=password] {
     width: 100%;
