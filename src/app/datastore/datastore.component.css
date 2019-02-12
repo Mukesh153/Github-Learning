@@ -1,0 +1,48 @@
+h1 {
+  color:black;
+  font-size : 100%;
+  /* margin-bottom: 50%; */
+ }
+
+.space
+{
+  margin-left: 100px;
+}
+
+.room
+{
+  margin-left: 200px;
+}
+
+.area
+{
+  margin-left: 20px;
+}
+
+.border
+{
+  border: 2px solid black;
+}
+
+.size{
+  height:10px;
+  width:10px;
+}
+
+.button
+{
+  background-color:lightgray ;
+  border: 1px solid black;
+}
+
+#button1
+{
+  background-color:lightgrey ;
+  border: 1px solid black;
+  padding: 0px 35px;
+}
+
+.textarea
+{
+  padding: 8px 30px;
+}

@@ -3,27 +3,48 @@ import { NgModule } from '@angular/core';
 
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
-import {MatButtonModule, MatCheckboxModule} from '@angular/material'
+import {MatButtonModule,MatToolbarModule,MatCheckboxModule,MatGridListModule,
+  MatDatepickerModule,MatNativeDateModule,MatTableModule,MatInputModule,MatIconModule} from '@angular/material'
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { UserComponent } from './user/user.component';
+
 import { FormsModule } from '@angular/forms';
-import { User1Component } from './user1/user1.component';
+import { CalenderComponent } from './calender/calender.component';
+import { DatastoreComponent } from './datastore/datastore.component';
+import { TableComponent } from './table/table.component';
+
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    UserComponent,
-    User1Component
+    CalenderComponent,
+    DatastoreComponent,
+    TableComponent
   ],
   imports: [
+    MatDatepickerModule,
+    MatToolbarModule,
+    MatGridListModule,
+    BrowserAnimationsModule,
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    MatButtonModule,
+    MatCheckboxModule,
+    FormsModule,
+    MatNativeDateModule,
+    MatTableModule,
+    MatInputModule,
+    MatIconModule
   ],
-  providers: [],
+  exports : [
+    BrowserAnimationsModule,
+    MatButtonModule,
+    MatCheckboxModule,
+    BrowserModule
+  ],
+  providers: [MatDatepickerModule],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

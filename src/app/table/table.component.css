@@ -1,0 +1,36 @@
+#tble
+{
+    border: 1px solid rgb(73,73,73);
+    width:100%;
+    margin-top: 15px;
+}
+
+#bgcolor
+{
+    background-color: black;
+    color: white;
+}
+
+#addbutton
+{
+    background-color: black;
+    color:white;
+    font-size : 100%;
+}
+
+#arrow
+{
+    float:right;  
+}
+
+#rightarrow{
+   background-color:  black;
+   color: #fff;
+   padding: 5px 8px 5px 8px;
+   border-radius: 5px;
+}
+
+.space
+{
+    margin-top: -10px;
+}

@@ -74,3 +74,26 @@ input[type=text], input[type=password] {
        width: 100%;
     }
   }
+
+  mat-toolbar {
+    background: black;
+    color: white;
+}
+
+.fill
+{
+flex : 1 1 auto;
+}
+
+table {
+  width: 100%;
+}
+app-table
+{
+  width:95%;
+}
+
+app-datastore
+{
+  width:100%;
+}
