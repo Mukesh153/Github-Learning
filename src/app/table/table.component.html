@@ -20,7 +20,7 @@
       <th id="bgcolor" mat-header-cell *matHeaderCellDef><b>Detailed Description</b></th>
       <td mat-cell *matCellDef="let element"> 
           <button id="addbutton" mat-stroked-button><b>View</b></button> &nbsp;&nbsp;
-          <button id="addbutton" mat-stroked-button><b>Add</b></button>
+          <button id="addbutton" (click)="click_fn() " mat-stroked-button><b>Add</b></button>
        </td>
     </ng-container>
 

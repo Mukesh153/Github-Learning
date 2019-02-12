@@ -17,6 +17,9 @@ export class TableComponent implements OnInit {
 
   ngOnInit() {
   }
+  click_fn(){
+    alert('Fetch data from back-end');
+  }
 displayedColumns: string[]=['checked','desc','code','details','uom','quantity','delivery','template','delete'];
 dataSource= Item_Description;
 }
